@@ -1,0 +1,25 @@
+@media screen  and (max-width:968px) {
+  .navigation{
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content-right {
+    display: none;
+  }
+  .articles {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+
+  .articles img{
+    text-align: center;
+  }
+  .form-control {
+    width: 50%;
+  }
+}

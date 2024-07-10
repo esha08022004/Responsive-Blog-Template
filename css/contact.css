@@ -1,0 +1,32 @@
+.contact-content {
+  height: 75vh;
+  position: relative;
+  margin: 4px;
+  padding: 9px;
+  overflow: hidden;
+}
+
+.contact-content::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  background-image: url("../image/blog.svg");
+  background-size: cover;
+  background-position: center;
+  inset: 0;
+  opacity: 0.15;
+  z-index: -1;
+  overflow:hidden;
+}
+
+.btn {
+  height: 30px;
+  width:100px;
+  border-radius: 0.75em;
+  background-image: linear-gradient(90deg,rgb(172, 162, 175),rgb(194, 178, 194),rgb(196, 187, 199));
+  cursor: pointer;
+}
+
+.btn:hover{
+  box-shadow: 0 20px 25px 0 rgba(215, 190, 221, 0.24), 0 17px 50px 0 rgba(235, 199, 248, 0.19);
+}

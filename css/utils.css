@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+
+:root {
+  --main-bg-color: rgb(182, 182, 208);
+  --main-bg-color1:rgb(145, 145, 206);
+  --font1: 'Kanit', sans-serif;
+  --font2: 'Young Serif', serif;
+}
+.font1 {
+  font-family: var(--font1);
+  font-weight: bold;
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+.my-2 {
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+.form-control {
+  padding: 3px 5px;
+  font-size: 16px;
+  border-radius: 0.5em;
+  margin: 10px 20px;
+}
+
+.form-box input,textarea {
+  width: 52vw;
+  padding: 10px 6px;
+  margin:7px 0px;
+  border: 2px solid gray;
+  border-radius: 0.5em;
+}

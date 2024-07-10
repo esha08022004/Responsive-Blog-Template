@@ -1,0 +1,157 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+.checkBtn {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 0;
+
+}
+
+#check{
+  visibility: hidden;
+}
+input[type="submit"]{
+  display: none;
+}
+.navigation {
+  margin-top: 23px;;
+  /* height: 74px; */
+  font-family: var(--font2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 2.00rem;
+  display: flex;
+}
+
+.nav-left ul {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 38px;
+
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font1);
+  font-weight: bolder;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover {
+  color:#544c67;
+  text-decoration-line: underline;
+}
+
+.fa-search {
+  padding: 5px 8px;
+  font-size: x-large;
+}
+
+.fa-quote-left {
+  border: none;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.content {
+  height: 350px;
+  display: flex;
+  background-color: rgb(182, 182, 208);  
+  margin-top: 32px;
+}
+
+.content-left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.content-left h1{
+    margin: 45px 34px;
+    text-decoration: underline;
+}
+.content-left p{
+  margin-left: 15px;
+}
+.content-right{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.content-right img{
+  height: 223px;
+  margin-right: 25px;
+  margin-top: 22px;
+
+}
+.home-articles {
+  padding: 15px;
+  position: relative;
+}
+
+.home-articles::before{
+  content: "";
+  background-image: url("../image/bgimage.svg");
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  opacity: 0.14;
+}
+
+.articles img{
+  height: 250px;
+  width: 263px;
+}
+.articles {
+  display: flex;
+  font-display: flex;
+  flex-direction:column nowrap;
+  margin: 16px;
+  padding: 6px;
+}
+.article-content {
+  align-self: center;
+  margin-left: 58px;
+  z-index: 1;
+
+}
+.article-content h2{
+  font-weight: bolder;
+  font-size: 27px;
+}
+.article-content a{
+  text-decoration: none ;
+  color: black;
+}
+.article-content a:hover{
+  text-decoration: underline black;
+}
+.footer {
+  height: 100px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  color: beige;
+}
